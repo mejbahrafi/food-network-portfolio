@@ -37,6 +37,7 @@ color: tomato;
 .mid-banner{
     background-image: url(image/7.png);
     background-repeat: no-repeat;
+   
 }
 #recipe{
     
@@ -62,9 +63,21 @@ color: tomato;
     border-radius: 30px;
 }
 .pizza img{
-    width: 150px;
-    height: 170;
+    width: 200px;
+    height: 200px;
     border-radius: 36px;
     padding: 25px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer h3{
+    color: blanchedalmond;
+}
+footer p{
+    color: white;
 }
 
