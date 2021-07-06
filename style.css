@@ -22,8 +22,12 @@ color: tomato;
 .divided-width{
     padding-left: 5%;
    width: 50%;
+   padding-right: 5%;
+   padding-top: 5%;
+   padding-bottom: 5%;
 
 }
+
 .flexible{
     display: flex;
     
@@ -48,25 +52,48 @@ color: tomato;
 }
 .last-item{
     display: flex;
-    padding-bottom: 100px;
-    margin-right: 100px;
-    margin-left: 100px;
+    padding-bottom:5%;
+    padding-top: 5%;
 }
 .last-item img{
-    width: 50% ;
+    width: 40% ;
+    height: 40%;
+    border-radius: 20%;
 }
 .pizza{
     text-align: center;
-    box-shadow: 5px 8px 33px 5px rgb(0 0 0/45%);
-    margin-right: 20px;
-    margin-left: 20px;
+    box-shadow: 5px 5px 20px ;
+    margin-right: 3%;
+    margin-left: 3%;
     border-radius: 30px;
+    border: 7px solid wheat;
+
 }
 .pizza img{
-    width: 200px;
-    height: 200px;
-    border-radius: 36px;
-    padding: 25px;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    padding: 30px;
+}
+#parent-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   height: 150px;
+   width: 70%;
+   border: 5px solid whitesmoke;
+   border-radius: 20px;
+   margin: 0 auto;
+   margin-bottom: 10%;
+   margin-top: 8%;
+   
+}
+.child-div h1{
+ margin-bottom:10px ;
+
+}
+.child-div p{
+    margin-top: -10%;
 }
 footer{
     background-color: black;
